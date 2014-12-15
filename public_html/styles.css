@@ -1,0 +1,51 @@
+﻿html{
+    font-size: 16pt;
+    margin: auto;
+    width: 1024px;
+}
+body{
+    background-color: rgba(127,127,127,0.35);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Helvetica Neue",
+    Helvetica, "Nimbus Sans L", "DejaVu Sans", "Droid Sans", Arial, STXihei,
+    "Heiti SC", "Droid Sans Fallback", "WenQuanYi Micro Hei",
+    "WenQuanYi Zen Hei", "Microsoft Yahei", SimHei, SimSun, sans-serif;
+    height: 100%;
+    
+}
+#titlepart{
+    position:fixed;
+    left:0px;
+    top:0px;
+    height:30px;
+    width:100%;
+    background-color: black;
+    font-size:12pt;
+}
+#bg_music{
+    position:fixed;
+    right:0px;
+}
+.title{
+   text-align:center; 
+}
+#titlepart a.buttons {
+    color:white;
+    text-decoration: none;
+    display: inline;
+    background: black;
+    line-height:25px;
+    padding:5px 10px;
+}
+#titlepart a.buttons:hover,
+#titlepart a.buttons:active,
+#titlepart a.buttons:focus {
+    color:black;
+    background: gray;
+}
+p#pagefoot{
+    color: black;
+    font-size: 9pt;
+    text-align: center;
+    width: 100%;
+}
+

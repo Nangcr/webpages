@@ -1,0 +1,29 @@
+﻿html{
+    font-size: 15pt;
+    margin: auto;
+    width: 980px;
+}
+body{
+    background-color: rgb(223,223,223);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Helvetica Neue",
+    Helvetica, "Nimbus Sans L", "DejaVu Sans", "Droid Sans", Arial, STXihei,
+    "Heiti SC", "Droid Sans Fallback", "WenQuanYi Micro Hei",
+    "WenQuanYi Zen Hei", "Microsoft Yahei", SimHei, SimSun, sans-serif;
+    height: 100%;
+}
+h1{
+    text-align:center;
+}
+.blue{
+    background-color: rgb(172,238,206);
+}
+.grey{
+    background-color: rgb(208,208,208);
+}
+em{
+    font-style: normal;
+    font-family: STKaiti, ".STKaitiCore", "方正楷体_GBK", "楷体", "楷体_GB2312", sans-serif, inherit;
+}
+#expand1, #expand2{
+    display: none;
+}

@@ -1,0 +1,66 @@
+﻿<?php
+$file=fopen("record.csv","w");
+if(isset($_POST["sex"]))
+    fprintf($file,"%d,",$_POST["sex"]);
+else
+    fprintf($file,",");
+if(isset($_POST["grade"]))
+    fprintf($file,"%d,",$_POST["grade"]);
+else
+    fprintf($file,",");
+if(isset($_POST["know"]))
+    fprintf($file,"%d,",$_POST["know"]);
+else
+    fprintf($file,",");
+if(isset($_POST["thinking"]))
+    fprintf($file,"%d,",$_POST["thinking"]);
+else
+    fprintf($file,",");
+if(isset($_POST["feel"]))
+    fprintf($file,"%d,",$_POST["feel"]);
+else
+    fprintf($file,",");
+if(isset($_POST["yon"]))
+    fprintf($file,"%d,",$_POST["yon"]);
+else
+    fprintf($file,",");
+if(isset($_POST["show"]))
+    fprintf($file,"%d,",$_POST["show"]);
+else
+    fprintf($file,",");
+if(isset($_POST["how"]))
+    fprintf($file,"%d,",$_POST["how"]);
+else
+    fprintf($file,",");
+if(isset($_POST["which"]))
+    fprintf($file,"%d,",$_POST["which"]);
+else
+    fprintf($file,",");
+if(isset($_POST["have"]))
+    fprintf($file,"%d,",$_POST["have"]);
+else
+    fprintf($file,",");
+if(isset($_POST["deal"]))
+    fprintf($file,"%d,",$_POST["deal"]);
+else
+    fprintf($file,",");
+if(isset($_POST["treat"]))
+    fprintf($file,"%d,",$_POST["treat"]);
+else
+    fprintf($file,",");
+if(isset($_POST["watch"]))
+    fprintf($file,"%d\n",$_POST["watch"]);
+else
+    fprintf($file,"\n");
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>谢谢您填写本问卷</title>
+<link rel="stylesheet" type="text/css" href="./styles.css" />
+</head>
+<body>
+<h1>我们会在合适的时间公布统计结果，谢谢您的参与。</h1>
+</body>
+</html>

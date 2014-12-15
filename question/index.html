@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>关于马鞍山二中学生对中二病认知的调查</title>
+<link rel="stylesheet" type="text/css" href="./styles.css" />
+<script language="javascript" type="text/javascript">
+function expanddivs(x) {
+    var exp1 = document.getElementById("expand1");
+    var exp2 = document.getElementById("expand2");
+    if (x==1) {
+        exp1.style.display = "block";
+        exp2.style.display = "none";
+    } else {
+        exp2.style.display = "block";
+        exp1.style.display = "none";
+    }
+}
+</script>
+</head>
+<body>
+<h1>马鞍山二中学生中二病认知调查问卷</h1>
+<hr />
+<div>
+<em>
+亲爱的同学们：
+<br />
+　　你们好！我们正在进行一项关于“中二病”的调查，想邀请您用几分钟时间帮忙填答这份问卷。本问卷实行匿名制，所有数据只用于统计分析，请您放心填写。
+</em>
+</div>
+<form name="input" action="./thanks.php" method="post">
+<div class="blue">
+Q1 您的性别是：
+<br />
+<input type="radio" name="sex" value="1" /> 男
+<input type="radio" name="sex" value="2" /> 女
+<input type="radio" name="sex" value="3" /> 秀吉
+</div>
+<div class="grey">
+Q2 您的年级是：
+<br />
+<input type="radio" name="grade" value="1" /> 高一
+<input type="radio" name="grade" value="2" /> 高二
+<input type="radio" name="grade" value="3" /> 高三
+<input type="radio" name="grade" value="4" /> 初二
+</div>
+<div class="blue">
+Q3 您知道什么是中二病吗？
+<br />
+<input type="radio" name="know" value="1" onchange="expanddivs(1);" /> 知道（并十分了解）
+<input type="radio" name="know" value="2" onchange="expanddivs(1);" /> 听说过
+<input type="radio" name="know" value="3" onchange="expanddivs(2);" /> 不知道
+</div>
+<div id="expand1">
+<div class="grey">
+Q4 您曾经有过“啊，这人就是中二病”的感觉吗？
+<br />
+<input type="radio" name="thinking" value="1" /> 有
+<input type="radio" name="thinking" value="2" /> 没有
+<input type="radio" name="thinking" value="3" /> 自己就是（或曾经是）
+</div>
+<div class="blue">
+Q5 中二病患者给您的感觉是怎样的呢？（多选）
+<br />
+<input type="checkbox" name="feel" value="1"/> 善解人意
+<input type="checkbox" name="feel" value="2"/> 很好相处
+<input type="checkbox" name="feel" value="3"/> 脾气暴躁
+<input type="checkbox" name="feel" value="4"/> 搞笑
+<input type="checkbox" name="feel" value="5"/> 幼稚
+<br />
+<input type="checkbox" name="feel" value="6"/> 自大
+<input type="checkbox" name="feel" value="7"/> 喜欢暗属性（黑色调、堕落、黑暗）
+<input type="checkbox" name="feel" value="8"/> 不切实际
+<br />
+<input type="checkbox" name="feel" value="9"/> 值得依赖
+<input type="checkbox" name="feel" value="10"/> 诚实
+<input type="checkbox" name="feel" value="11"/> 评论家
+<input type="checkbox" name="feel" value="12"/> 被害妄想
+<input type="checkbox" name="feel" value="13"/> 与众不同
+<br />
+<input type="checkbox" name="feel" value="14"/> 自卑
+<input type="checkbox" name="feel" value="15"/> 可爱
+<input type="checkbox" name="feel" value="16"/> 积极的
+<input type="checkbox" name="feel" value="17"/> 悲观的
+</div>
+<div class="grey">
+Q6 中二病患者的这种性格曾经让你觉得苦恼或厌烦吗？
+<br />
+<input type="radio" name="yon" value="1" /> 是
+<input type="radio" name="yon" value="2" /> 不是
+</div>
+<div class="blue">
+Q7 你觉得哪些行为是中二病患者的表现呢？（多选）
+<br />
+<input type="checkbox" name="show" value="1"/> 认为向咖啡里加糖是丢脸的事情
+<br />
+<input type="checkbox" name="show" value="2"/> 对自己追加异世界设定（如：漆黑烈火使、“邪王真眼”拥有者等）
+<br />
+<input type="checkbox" name="show" value="3"/> 认为只要做就能做的到
+<br />
+<input type="checkbox" name="show" value="4"/> 考虑过独自一人去旅行，就是没成功
+<br />
+<input type="checkbox" name="show" value="5"/> 明明连作曲都不会却开始作词了
+<br />
+<input type="checkbox" name="show" value="6"/> 常批评动漫或者游戏的编剧太蹩脚，但自己想出来的也就是小学生的水准
+<br />
+<input type="checkbox" name="show" value="7"/> 希望自己或别人能感觉自己很成熟
+<br />
+<input type="checkbox" name="show" value="8"/> 幻想自己会是后宫动画的男主角或女主角
+<br />
+<input type="checkbox" name="show" value="9"/> 觉得自己有忧郁症
+<br />
+<input type="checkbox" name="show" value="10"/> 常常模仿动漫、游戏、电影中的台词，甚至搭配上动作
+<br />
+<input type="checkbox" name="show" value="11"/> 觉得“毒舌”
+<br />
+<input type="checkbox" name="show" value="12"/> 以晚睡、熬夜、通宵为荣
+<br />
+<input type="checkbox" name="show" value="13"/> 一旦输了就会说“是我手下留情”
+<br />
+<input type="checkbox" name="show" value="14"/> 强调自己在色情方面的知识，但也只是纸上谈兵
+<br />
+<input type="checkbox" name="show" value="15"/> 世界干脆毁灭算了
+<br />
+<input type="checkbox" name="show" value="16"/> 我变成……这个样子，都是世界的错（时臣的错/命运门的选择）
+</div>
+<div class="grey">
+Q8 您觉得这种心理是怎样的呢？
+<br />
+<input type="radio" name="how" value="1" /> 很正常
+<input type="radio" name="how" value="2" /> 一般
+<input type="radio" name="how" value="3" /> 不正常
+</div>
+<div class="blue">
+Q9 如果您曾有“中二病”，您更偏向于哪种态度呢？
+<br />
+<input type="radio" name="which" value="1" /> 尝试加重
+<input type="radio" name="which" value="2" /> 不予理会
+<input type="radio" name="which" value="3" /> 尝试减轻或痊愈
+</div>
+</div>
+<div id="expand2">
+<div class="grey">
+Q10 您曾经有过下列这些行为吗？
+<br />
+认为向咖啡里加糖是丢脸的事情
+<br />
+对自己追加异世界设定（如：漆黑烈火使、“邪王真眼”拥有者等）
+<br />
+认为只要做就能做的到
+<br />
+考虑过独自一人去旅行，就是没成功
+<br />
+明明连作曲都不会却开始作词了
+<br />
+常常批评动漫或者游戏的编剧太蹩脚，但自己想出来的也就是小学生的水准
+<br />
+希望自己或别人能感觉自己很成熟
+<br />
+幻想自己会是后宫动画的男主角或女主角
+<br />
+觉得自己有忧郁症
+<br />
+常常模仿动漫、游戏、电影中的台词，甚至搭配上动作
+<br />
+毒舌
+<br />
+以晚睡、熬夜、通宵为荣
+<br />
+一旦输了就会说“是我手下留情”
+<br />
+强调自己在色情方面的知识，但也只是纸上谈兵
+<br />
+世界干脆毁灭算了
+<br />
+我变成……这个样子，都是世界的错（时臣的错/命运门的选择）
+<br />
+<input type="radio" name="have" value="1" /> 较少（1-5项）
+<input type="radio" name="have" value="2" /> 较多（6-10项）
+<input type="radio" name="have" value="3" /> 很多（大于10项）
+<input type="radio" name="have" value="4" /> 没有
+</div>
+<div class="blue">
+Q11 若您有过上列行为，告诉您这就是“中二病”，您更偏向于哪种反应呢？
+<br />
+<input type="radio" name="deal" value="1" /> 坦然接受
+<input type="radio" name="deal" value="2" /> 觉得自己哪里出了问题
+<input type="radio" name="deal" value="3" /> 无所谓
+</div>
+<div class="grey">
+Q12 您会觉得“中二病”是一种心理疾病，并想让患者接受治疗吗？
+<br />
+<input type="radio" name="treat" value="1" /> 觉得是疾病，应该接受治疗
+<input type="radio" name="treat" value="2" /> 觉得是疾病，但应该放弃治疗
+<input type="radio" name="treat" value="3" /> 不觉得是疾病，不必治疗
+</div>
+<div class="blue">
+Q13 对于“人不中二枉少年”，您的看法偏向于哪种呢？
+<br />
+<input type="radio" name="watch" value="1" /> 是的，就是这样
+<input type="radio" name="watch" value="2" /> 不予赞同或中立
+</div>
+</div>
+<hr />
+<div><em>问卷到此结束，感谢您的配合与支持！祝您中二毕业！</em></div>
+<div style="width: 100%; text-align: center"><input style="font-size: 16pt" type="submit" value="提交" /></div>
+</form>
+</body>
+</html>

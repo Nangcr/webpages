@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>公开文件的上传页面</title>
+<meta name="description" content="这是一个储存各类文档程序的私人服务器，它并不是公开的。" />
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="shortcut icon" href="初音图标.ico" />
+</head>
+<body>
+<center>
+<img id="titimg" src="标题图片.webp" alt="手绘的初音未来" title="野生的初音" onerror="this.src='标题图片.png';this.onerror=''" />
+</script>
+<hr />
+<h1>您可以从这里向服务器上传文件。</h1>
+</center>
+<form action="upload_file.php" method="post"
+enctype="multipart/form-data">
+<label for="file">待上传文件:</label>
+<input type="file" name="file" id="file" />
+<br />
+<input type="submit" name="submit" value="上传 &gt;_&lt;" />
+<br />
+<br />
+</form>
+<div><a class="buttons" href="./">回到主页</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="buttons" href="downloads/公众分享/" >
+查看所有已上传的文件</a></div>
+</center>
+<hr />
+<div>我们将不对用户上传的文件进行任何保密措施以及版权检查</div>
+<div>但是我们会对用户上传文件的合法性进行检查</div>
+<div>如果被发现用户上传了违反中华人民共和国法律的文件</div>
+<div>我们将第一时间删除它</div>
+<div>同时，如果这里有任何文档、程序侵犯了您的合法权益</div>
+<div>您可以点击<a href="mail.php">这里</a>联系我们</div>
+<div>我们将及时为您处理</div>
+</body>
+</html>
